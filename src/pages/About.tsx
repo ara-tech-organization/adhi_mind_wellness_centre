@@ -156,7 +156,7 @@ const About = () => {
             {/* Right: Image */}
             <div className="flex justify-center" data-aos="fade-left">
               <img
-                src="./lovable-uploads/About-img (2).jpeg"
+                src="./lovable-uploads/24.webp"
                 alt="K. Adhilakshmi"
                 className="rounded-2xl shadow-xl w-full max-w-md h-auto object-cover"
               />

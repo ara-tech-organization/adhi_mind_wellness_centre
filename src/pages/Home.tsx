@@ -123,91 +123,109 @@ const Home = () => {
 
       {/* Hero Section with Background Image */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Background Image with Overlay */}
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
-          }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-r from-wellness-violet/80 via-wellness-violet/60 to-wellness-lavender/40"></div>
-        </div>
 
-        {/* Hero Content */}
+        {/* Light Background Image */}
         <div
-          className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto"
-          data-aos="fade-up"
-          data-aos-duration="1200"
-        >
-          <div className="mb-8" data-aos="zoom-in" data-aos-delay="200">
-            <div className="w-3 h-3 md:w-4 md:h-4 mx-auto mb-8 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center floating-animation border-4 border-white/30">
-              {/* <img
-                src="/lovable-uploads/c7ed723a-aa7b-4557-81e4-e192a1dfb969.png"
-                alt="Adhi Mind Wellness Centre Logo"
-                className="w-24 h-24 md:w-32 md:h-32 object-contain"
-              /> */}
+          className="absolute inset-0 bg-cover bg-center opacity-9"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`, // light abstract bg
+          }}
+        ></div>
+
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-wellness-violet/80 via-wellness-violet/60 to-wellness-lavender/40 z-0"></div>
+
+        {/* Hero Container */}
+        <div className="relative z-10 container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Left Content */}
+          <div
+            className="text-center lg:text-left pt-20 sm:pt-24 lg:pt-0"
+            data-aos="fade-right"
+            data-aos-duration="1200"
+          >
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
+              Transform Within.
+              <br />
+              <span className="text-wellness-sparkle bg-gradient-to-r from-wellness-sparkle to-white bg-clip-text text-transparent">
+                Thrive Beyond.
+              </span>
+            </h1>
+
+            <p
+              className="text-lg md:text-xl text-white/95 mb-10 max-w-xl mx-auto lg:mx-0 leading-relaxed font-medium"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              A sanctuary for emotional healing, mental wellness, and personal
+              transformation. Discover your inner strength and embrace life with
+              renewed purpose and joy.
+            </p>
+
+            <div
+              className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <Link to="/contact">
+                <Button
+                  size="lg"
+                  className="bg-white text-wellness-violet hover:bg-white/90 px-10 py-4 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                >
+                  Book a Session
+                  <ArrowRight className="w-6 h-6 ml-3" />
+                </Button>
+              </Link>
             </div>
           </div>
 
-          <h1
-            className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-8 text-shadow leading-tight"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
-            Transform Within.
-            <br />
-            <span className="text-wellness-sparkle bg-gradient-to-r from-wellness-sparkle to-white bg-clip-text text-transparent">
-              Thrive Beyond.
-            </span>
-          </h1>
-
-          <p
-            className="text-xl md:text-xl text-white/95 mb-12 max-w-2xl mx-auto leading-relaxed font-medium"
-            data-aos="fade-up"
-            data-aos-delay="600"
-          >
-            A sanctuary for emotional healing, mental wellness, and personal
-            transformation. Discover your inner strength and embrace life with
-            renewed purpose and joy.
-          </p>
-
+          {/* Right Image */}
           <div
-            className="flex flex-col sm:flex-row gap-6 justify-center items-center"
-            data-aos="fade-up"
-            data-aos-delay="800"
+            className="flex justify-center lg:justify-end relative"
+            data-aos="fade-left"
+            data-aos-duration="1200"
           >
-            <Link to="/contact">
-              <Button
-                size="lg"
-                className="bg-white text-wellness-violet hover:bg-white/90 px-10 py-4 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
-              >
-                Book a Session
-                <ArrowRight className="w-6 h-6 ml-3" />
-              </Button>
-            </Link>
+            <img
+              src="./lovable-uploads/Homebg.png"
+              alt="Wellness"
+              className="rounded-2xl max-w-md lg:max-w-lg object-cover relative z-10"
+            />
+
+            {/* Decorative SVG Behind Image */}
+            <svg
+              className="absolute -top-12 -right-12 w-40 h-40 text-white/20"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1"
+              viewBox="0 0 200 200"
+            >
+              <circle cx="100" cy="100" r="80" />
+            </svg>
           </div>
         </div>
 
-        {/* Floating Elements */}
+        {/* Floating Dots */}
         <div className="absolute inset-0 pointer-events-none">
-          <div
-            className="absolute top-1/4 left-1/4 w-3 h-3 bg-wellness-sparkle rounded-full floating-animation opacity-70"
-            data-aos="fade-in"
-            data-aos-delay="1000"
-          ></div>
-          <div
-            className="absolute top-1/3 right-1/4 w-2 h-2 bg-white rounded-full floating-animation opacity-80"
-            data-aos="fade-in"
-            data-aos-delay="1200"
-            style={{ animationDelay: "1s" }}
-          ></div>
-          <div
-            className="absolute bottom-1/3 left-1/3 w-4 h-4 bg-wellness-sparkle rounded-full floating-animation opacity-60"
-            data-aos="fade-in"
-            data-aos-delay="1400"
-            style={{ animationDelay: "2s" }}
-          ></div>
+          <div className="absolute top-1/4 left-1/4 w-3 h-3 bg-wellness-sparkle rounded-full floating-animation opacity-70"></div>
+          <div className="absolute top-1/3 right-1/4 w-2 h-2 bg-white rounded-full floating-animation opacity-80"></div>
+          <div className="absolute bottom-1/3 left-1/3 w-4 h-4 bg-wellness-sparkle rounded-full floating-animation opacity-60"></div>
         </div>
+
+        {/* Extra Decorative SVGs */}
+        <svg
+          className="absolute bottom-10 left-10 w-24 h-24 text-white/10"
+          viewBox="0 0 100 100"
+          fill="none"
+        >
+          <polygon points="50,0 100,100 0,100" fill="currentColor" />
+        </svg>
+
+        <svg
+          className="absolute top-20 right-20 w-16 h-16 text-wellness-sparkle/20"
+          viewBox="0 0 100 100"
+          fill="currentColor"
+        >
+          <circle cx="50" cy="50" r="40" />
+        </svg>
       </section>
 
       {/* Welcome Section */}
@@ -216,7 +234,7 @@ const Home = () => {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16" data-aos="fade-down">
               <h2 className="text-4xl md:text-5xl font-bold text-wellness-violet mb-6">
-                Welcome to Your Journey of Healing
+                Welcome to Our Journey of Healing
               </h2>
               <p className="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
                 At Adhi Mind Wellness Centre, we believe every individual

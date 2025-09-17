@@ -29,6 +29,18 @@ const Gallery = () => {
     "/lovable-uploads/18.jpeg",
     "/lovable-uploads/19.jpg",
     "/lovable-uploads/20.jpg",
+    "/lovable-uploads/21.png",
+    "/lovable-uploads/22.png",
+    "/lovable-uploads/23.png",
+    "/lovable-uploads/24.png",
+    "/lovable-uploads/25.png",
+    "/lovable-uploads/26.png",
+    "/lovable-uploads/27.png",
+    // "/lovable-uploads/28.png",
+    "/lovable-uploads/29.png",
+    // "/lovable-uploads/31.webp",
+    // "/lovable-uploads/32.webp",
+    // "/lovable-uploads/33.jpg",
   ];
 
   return (
