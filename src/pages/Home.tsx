@@ -74,13 +74,10 @@ const Home = () => {
     <div>
       {/* -- meta tags starts -- */}
       <Helmet>
-        <title>
-          Adhi Mind Wellness Centre - Emotional Healing & Mental Wellness in
-          Thanjavur
-        </title>
+        <title>Adhi Mind Wellness Center – Your Partner in Well-Being</title>
         <meta
           name="description"
-          content="Adhi Mind Wellness Centre in Thanjavur offers counselling, life coaching, and mental wellness services for stress, trauma, personal growth, and emotional healing."
+          content="We believe mental health matters. Through personalized therapy, mindfulness practices, and emotional support, Adhi Mind Wellness Center helps you find clarity, peace, and strength."
         />
         <meta
           name="keywords"
@@ -91,11 +88,11 @@ const Home = () => {
         {/* Open Graph (for social media) */}
         <meta
           property="og:title"
-          content="Adhi Mind Wellness Centre - Transform Within, Thrive Beyond"
+          content="Adhi Mind Wellness Center – Your Partner in Well-Being"
         />
         <meta
           property="og:description"
-          content="Discover counselling, life coaching, and emotional healing at Adhi Mind Wellness Centre in Thanjavur."
+          content="We believe mental health matters. Through personalized therapy, mindfulness practices, and emotional support, Adhi Mind Wellness Center helps you find clarity, peace, and strength."
         />
         <meta
           property="og:image"
@@ -108,11 +105,11 @@ const Home = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Adhi Mind Wellness Centre - Mental Wellness in Thanjavur"
+          content="Adhi Mind Wellness Center – Your Partner in Well-Being"
         />
         <meta
           name="twitter:description"
-          content="Counselling, life coaching & emotional healing in Thanjavur."
+          content="We believe mental health matters. Through personalized therapy, mindfulness practices, and emotional support, Adhi Mind Wellness Center helps you find clarity, peace, and strength."
         />
         <meta
           name="twitter:image"
@@ -123,7 +120,6 @@ const Home = () => {
 
       {/* Hero Section with Background Image */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-
         {/* Light Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center opacity-9"
