@@ -9,6 +9,7 @@ import {
   Compass,
   Star,
   ArrowRight,
+  GraduationCap,
 } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 
@@ -49,6 +50,20 @@ const Services = () => {
         "Mood Disorders",
         "Behavioral Patterns",
       ],
+    },
+    {
+      title: "Adolescent Counselling",
+      description:
+        "Supportive and understanding sessions designed to help teenagers navigate emotional, social, and academic challenges during their formative years. These sessions promote self-awareness, resilience, and positive mental health in a safe, confidential environment.",
+      icon: GraduationCap,
+      features: [
+        "Academic & Peer Pressure",
+        "Emotional Regulation & Coping Skills",
+        "Identity & Self-Confidence Building",
+        "Parent-Child Communication",
+        "Behavioral & Social Adjustment",
+      ],
+      category: "Life Coaching Services", // optional; remove if you don't use categories
     },
     {
       title: "Trauma & Grief Counselling",
@@ -111,6 +126,19 @@ const Services = () => {
         "Action Planning",
         "Progress Tracking",
         "Accountability Support",
+      ],
+    },
+    {
+      title: "Self-Love Coaching",
+      description:
+        "Empowering one-on-one sessions designed to help you reconnect with yourself, build confidence, and cultivate a deep sense of self-worth. Learn to embrace your strengths, set healthy boundaries, and create a life rooted in self-compassion and authenticity.",
+      icon: Heart, // you can replace this with a heart or lotus icon if you want a more 'wellness' vibe
+      features: [
+        "Building Self-Confidence & Self-Worth",
+        "Overcoming Negative Self-Talk",
+        "Developing Healthy Boundaries",
+        "Emotional Healing & Inner Peace",
+        "Personal Growth & Empowerment",
       ],
     },
   ];

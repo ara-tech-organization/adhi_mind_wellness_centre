@@ -18,6 +18,7 @@ import { useLocation } from "react-router-dom";
 import Gallery from "./pages/Gallery";
 import FloatingButtons from "./components/FloatingButtons";
 import { HelmetProvider } from "react-helmet-async";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const queryClient = new QueryClient();
 
