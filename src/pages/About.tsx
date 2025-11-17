@@ -103,12 +103,12 @@ const About = () => {
               that helps you thrive in every aspect of life.
             </p>
             <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              At Adhi, we believe every individual deserves a life filled with
-              purpose, joy, and authentic happiness. Our approach blends
-              therapeutic methods with understanding and empathy, creating a
-              non-judgmental, safe space for exploration and healing. Here, we
-              help you unlock your full potential and discover tools that
-              empower you to face life with confidence.
+              At Adhi Mind Wellness Centre, we believe every individual deserves
+              a life filled with purpose, joy, and authentic happiness. Our
+              approach blends therapeutic methods with understanding and
+              empathy, creating a non-judgmental, safe space for exploration and
+              healing. Here, we help you unlock your full potential and discover
+              tools that empower you to face life with confidence.
             </p>
             {/* <p className="text-gray-700 text-sm md:text-base leading-relaxed">
               For me, if love could be defined in one word, it would be
@@ -129,7 +129,7 @@ const About = () => {
             {/* Left: Text */}
             <div data-aos="fade-right" className="space-y-5">
               <h2 className="text-3xl md:text-4xl font-bold text-wellness-violet">
-                About the Founder K. Adhilakshmi
+                About the Founder <br /> K. Adhilakshmi
               </h2>
               <p className="text-gray-700 text-sm md:text-base leading-relaxed">
                 K. Adhilakshmi is a passionate mental health professional and
@@ -144,9 +144,9 @@ const About = () => {
                 deep respect for each individual’s journey.
               </p>
               <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                As a life coach, she is especially focused on empowering women
-                and helping them achieve meaningful transformation in mindset,
-                self-worth, and life goals.
+                As a life coach, she is dedicated to fostering personal growth,
+                empowering women, and guiding students toward meaningful
+                transformation in mindset, self-worth, and life goals.
               </p>
               {/* <p className="text-sm italic text-gray-600">
                 “Kindness is the language of healing.”
@@ -156,9 +156,9 @@ const About = () => {
             {/* Right: Image */}
             <div className="flex justify-center" data-aos="fade-left">
               <img
-                src="./lovable-uploads/24.webp"
+                src="/lovable-uploads/24.png"
                 alt="K. Adhilakshmi"
-                className="rounded-2xl shadow-xl w-full max-w-md h-auto object-cover"
+                className="rounded-2xl h-96 md:h-[25rem] shadow-xl w-full max-w-md h-auto object-cover"
               />
             </div>
           </div>
@@ -168,52 +168,61 @@ const About = () => {
       <section className="py-16 md:py-24 bg-gradient-to-br from-wellness-light-purple to-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div
-            className="max-w-5xl mx-auto text-center space-y-6"
+            className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10"
             data-aos="fade-up"
           >
-            <h2 className="text-2xl md:text-3xl font-bold text-wellness-violet mb-4">
-              Founder’s Perspective
-            </h2>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              The purpose of starting Adhi Mind Wellness Centre is to support
-              fellow human beings in empowering themselves to achieve clarity
-              and peace of mind. I have always dreamt of helping people live
-              better lives, and this centre is a step toward making that dream a
-              reality.
-            </p>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              For me, if love could be defined in one word, it would be
-              kindness. I hold an unwavering belief that kindness has the power
-              to cultivate integrity, harmony, and peace among all human beings.
-              True to this belief, I approach my clients with kindness,
-              compassion, and empathy — not just as values, but as guiding
-              principles in my work.
-            </p>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              I am dedicated to guiding individuals toward the right course of
-              action that leads to positive transformation.
-            </p>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              At Adhi Mind Wellness Centre, I integrate both counselling and
-              coaching practices, offering emotional healing and practical
-              guidance to help individuals thrive at every stage of their
-              personal journey.
-            </p>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              At the core of my work is a commitment to holistic well-being —
-              mental, emotional, and personal. I firmly believe that nurturing
-              others is the true nature of humankind, and I am honoured to walk
-              alongside my clients as they rediscover their strength and thrive
-              in life.
-            </p>
-            {/* <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              For me, if love could be defined in one word, it would be
-              “Kindness.” I have an unwavering belief that kindness holds the
-              power to cultivate integrity, harmony, and peace among all human
-              beings. True to this belief, I approach my clients with kindness,
-              compassion, and empathy — not just as values, but as guiding
-              principles in my work.
-            </p> */}
+            {/* Left Image */}
+            <div className="flex justify-center">
+              <img
+                src="/lovable-uploads/21.png"
+                alt="Founder of Adhi Mind Wellness Centre"
+                className="w-full max-w-md md:max-w-lg h-96 md:h-[35rem] rounded-2xl shadow-lg object-cover object-center"
+              />
+            </div>
+
+            {/* Right Content */}
+            <div className="space-y-6 text-center md:text-left">
+              <h2 className="text-2xl md:text-3xl font-bold text-wellness-violet">
+                Founder’s Perspective
+              </h2>
+
+              <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                The purpose of starting Adhi Mind Wellness Centre is to support
+                fellow human beings in empowering themselves to achieve clarity
+                and peace of mind. I have always dreamt of helping people live
+                better lives, and this centre is a step toward making that dream
+                a reality.
+              </p>
+
+              <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                For me, if love could be defined in one word, it would be
+                kindness. I hold an unwavering belief that kindness has the
+                power to cultivate integrity, harmony, and peace among all human
+                beings. True to this belief, I approach my clients with
+                kindness, compassion, and empathy — not just as values, but as
+                guiding principles in my work.
+              </p>
+
+              <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                I am dedicated to guiding individuals toward the right course of
+                action that leads to positive transformation.
+              </p>
+
+              <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                At Adhi Mind Wellness Centre, I integrate both counselling and
+                coaching practices, offering emotional healing and practical
+                guidance to help individuals thrive at every stage of their
+                personal journey.
+              </p>
+
+              <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+                At the core of my work is a commitment to holistic well-being —
+                mental, emotional, and personal. I firmly believe that nurturing
+                others is the true nature of humankind, and I am honoured to
+                walk alongside my clients as they rediscover their strength and
+                thrive in life.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -420,7 +429,7 @@ const About = () => {
           <div className="max-w-4xl mx-auto text-center" data-aos="fade-up">
             <div className="mb-6">
               <img
-                src="https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src="/lovable-uploads/23.png"
                 alt="Growth and transformation"
                 className="w-32 h-32 mx-auto rounded-full object-cover shadow-lg mb-5"
               />

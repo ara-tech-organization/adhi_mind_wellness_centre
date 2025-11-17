@@ -72,7 +72,7 @@ const Footer = () => {
                 <strong className="text-white">Address:</strong>
                 <br />
                 No.32, Shop No.2 (First Floor), <br />GAN Plaza (Near Titan Showroom), <br />
-                Municipal Colony, Medical College Road,<br /> Thanjavur, Tamil Nadu
+                Municipal Colony, Medical College Road,<br /> Thanjavur, Tamil Nadu - 613007
               </p>
               <p>
                 <strong className="text-white">Phone:</strong>

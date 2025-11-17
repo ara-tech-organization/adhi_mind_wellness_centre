@@ -175,7 +175,7 @@ const Contact = () => {
                         <br />
                         Municipal Colony, Medical College Road,
                         <br />
-                        Thanjavur, Tamil Nadu
+                        Thanjavur, Tamil Nadu - 613005
                       </p>
                     </div>
                   </div>
@@ -209,10 +209,10 @@ const Contact = () => {
                       <h3 className="font-semibold text-wellness-violet mb-2">
                         Email Address
                       </h3>
-                      <p className="text-gray-700">
+                      <p className="text-gray-700 break-words overflow-hidden">
                         <a
                           href="mailto:adhimindwellnesscentre@gmail.com"
-                          className="hover:text-wellness-violet transition-colors"
+                          className="hover:text-wellness-violet transition-colors break-all"
                         >
                           adhimindwellnesscentre@gmail.com
                         </a>

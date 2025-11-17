@@ -98,7 +98,7 @@ const Header = () => {
                 isActive("/approach") ? "border-b-2 border-white" : "hover:border-b-2 hover:border-white"
               }`}
             >
-              Approach
+              Our Approach
             </Link>
             <Link
               to="/gallery"
@@ -167,7 +167,7 @@ const Header = () => {
               >
                 Why us
               </span>
-              
+
               <Link to="/services" onClick={handleNavClick} className={linkClass("/services")}>
                 Services
               </Link>
